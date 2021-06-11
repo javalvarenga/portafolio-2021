@@ -1,0 +1,271 @@
+.Home {
+  box-sizing: border-box;
+  background: var(--initBackground);
+  min-height: 100vh;
+  color: white;
+  margin: 0;
+  animation: luminusBackground 10s ease-in-out infinite;
+  background-size: 400% 300%;
+}
+@keyframes luminusBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 75%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+h1 {
+  color: #009fb7;
+  font-size: 3rem;
+  font-weight: 500;
+}
+h6 {
+  color: #fed766;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 0;
+}
+p {
+  text-align: center;
+  font-weight: 100;
+  font-size: 1rem;
+}
+a {
+  width: 40%;
+}
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+li {
+  font-weight: 200;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: fill;
+  border: none;
+  background-image: url("../../assets/images/avatar.jpg");
+  background-size: cover;
+
+  box-shadow: 2px 2px 10px black;
+  border: 1px solid rgb(82, 82, 82);
+}
+.container {
+  width: 100%;
+  height: 100%;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subtitle {
+  color: rgb(206, 205, 205);
+  font-weight: 100;
+  text-align: center;
+}
+.subtitle b {
+  color: #66fe8b;
+}
+.estudio {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 1rem;
+  max-width: 2000px;
+}
+.info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.info p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.subContainer {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+}
+
+.redes {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+.redes p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.redes div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1.6rem;
+}
+.redes img {
+  width: 35%;
+  max-width: 300px;
+  object-fit: cover;
+}
+
+.redes div div {
+  height: minmax(300px, 100%);
+  height: min-content;
+}
+
+#instagram,
+#twitter,
+#linkedin {
+  padding: 1rem;
+  width: 70%;
+  max-width: 200px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+#cvBtn {
+  position: fixed;
+  right: 100px;
+  top: 50px;
+  color: white;
+  padding: 1rem;
+  font-size: 0.8rem;
+  background-color: #e4e4e400;
+  color: white;
+  font-weight: 800;
+  border-radius: 24px;
+  border: #fed766 1px solid;
+}
+
+#cvBtn:hover {
+  animation-duration: 1s;
+  animation-name: luminus;
+  animation-fill-mode: forwards;
+  box-shadow: 3px 4px 8px black;
+}
+
+@keyframes luminus {
+  from {
+    color: white;
+    background-color: #fed8664b;
+  }
+
+  to {
+    color: #1d2729;
+    background: #fed766;
+  }
+}
+
+@media (max-width: 600px) {
+  #cvBtn {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    width: 100px;
+    height: 50px;
+    font-size: 0.6rem;
+  }
+  .hero {
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    margin-bottom: 0;
+    font-size: 1.6rem;
+  }
+  .subContainer {
+    padding: 1rem;
+  }
+}
+#btnPortafolio {
+  background-color: rgba(255, 222, 173, 0);
+  border: 1px solid #009fb7;
+  color: var(--txtColor);
+  margin-top: 1rem;
+  font-size: 1rem;
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 8px;
+  max-width: 300px;
+}
+#btnPortafolio:hover {
+  animation-duration: 1s;
+  animation-name: luminusPorta;
+  animation-fill-mode: forwards;
+  box-shadow: 3px 4px 8px black;
+}
+
+@keyframes luminusPorta {
+  from {
+    background-color: #00000000;
+  }
+
+  to {
+    color: #1f1f1f;
+    background-color: #009fb7;
+  }
+}
+#btnCursos {
+  background-color: rgba(255, 222, 173, 0);
+  border: 1px solid #66fe8b;
+  color: var(--txtColor);
+  margin-top: 1rem;
+  font-size: 1rem;
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 8px;
+  max-width: 300px;
+}
+
+#btnCursos:hover {
+  animation-duration: 1s;
+  animation-name: luminusCursos;
+  animation-fill-mode: forwards;
+  box-shadow: 3px 4px 8px black;
+}
+@keyframes luminusCursos {
+  from {
+    background-color: #00000000;
+  }
+
+  to {
+    color: #1f1f1f;
+    background-color: #66fe8b;
+  }
+}

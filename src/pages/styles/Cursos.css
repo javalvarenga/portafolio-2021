@@ -1,0 +1,75 @@
+.Cursos{
+    box-sizing: border-box;
+    background: var(--initBackground);
+    min-height: 100vh;
+    color: white;
+    margin: 0;
+    animation: luminusBackground 10s ease-in-out infinite;
+    background-size: 400% 300%;
+    text-align: center;
+}
+.Cursos h1{
+  font-size: 3rem;
+  margin: 0;
+  padding-top: 3rem;
+  color: #fed766;
+}
+.Cursos h6{
+  font-size: 1.3rem;
+}
+@keyframes luminusBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 75%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.courseContainer{
+  display: grid;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+  justify-items: center;
+
+}
+@media (max-width: 600px) {
+  .Cursos h1{
+    font-size: 2rem;
+  }
+  .courseContainer{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 800px) {
+  .courseContainer{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .courseContainer{
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+}
+.coursesFooter h6{
+  color: white;
+}
+.coursesFooter h6{
+  margin: 0;
+  padding-bottom: 3rem;
+}
+.coursesFooter a{
+  outline: none;
+  text-decoration: none;
+  color: #fed766;
+}
+.coursesFooter a:hover{
+  color: #678dfe;
+}

@@ -1,13 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,200;1,400&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --main-bg-color: brown;
+  --txtColor: rgb(180, 180, 180);
+  --initBackground:linear-gradient(to right bottom, #201b23, #221f28, #24242d, #262832, #282d36, #282c35, #272c33, #272b32, #23252b, #1f1f24, #1a1a1d, #151416);
+  --doBackground: linear-gradient(
+    to left top,
+    #3f649d,
+    #47568a,
+    #494977,
+    #483d64,
+    #433252,
+    #423150,
+    #42304f,
+    #412f4d,
+    #45385b,
+    #47416a,
+    #464b78,
+    #435587
+  );
 }
