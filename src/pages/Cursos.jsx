@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import "./styles/Cursos.css";
 import GenericCard from "../components/GenericCard";
 import FrontendSC from "../assets/diplomas/frontendDev.jpg";

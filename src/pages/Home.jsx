@@ -1,10 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link,Redirect } from "react-router-dom";
 import "./styles/Home.css";
 import twitterImg from "../assets/images/twit.png";
 import igLogo from "../assets/images/iglogo.png";
 import inLogo from "../assets/images/linkedin.png";
 function Home() {
+
   return (
     <div className="Home">
       <main>
@@ -80,6 +81,7 @@ function Home() {
           </div>
         </div>
       </main>
+      {false && <Redirect to="/portafolio-2021"/>}
     </div>
   );
 }
