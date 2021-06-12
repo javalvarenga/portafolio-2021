@@ -1,10 +1,12 @@
 import React from "react";
-import { Link,Redirect } from "react-router-dom";
+import { Link,withRouter } from "react-router-dom";
 import "./styles/Home.css";
 import twitterImg from "../assets/images/twit.png";
 import igLogo from "../assets/images/iglogo.png";
 import inLogo from "../assets/images/linkedin.png";
-function Home() {
+function Home(props) {
+
+  const {history}=props
 
   return (
     <div className="Home">
@@ -55,14 +57,12 @@ function Home() {
                 <h6 className="subtitle">
                   Mi proceso de aprendizaje en <b>Platzi</b>
                 </h6>
-                <Link to="/cursos">
-                  <button id="btnCursos">mis Cursos</button>
-                </Link>
+                {/* <Link to="/cursos"> */}
+                  <button onClick={()=>history.push('/cursos')} id="btnCursos">mis Cursos</button>
               </div>
             </div>
             <div className="redes">
               <h6>Contáctame</h6>
-
               <div>
                 <div id="instagram">
                   <img src={igLogo} alt="" />
@@ -81,9 +81,8 @@ function Home() {
           </div>
         </div>
       </main>
-      {false && <Redirect to="/portafolio-2021"/>}
     </div>
   );
 }
 
-export default Home;
+export default withRouter(Home);
