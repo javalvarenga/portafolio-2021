@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portafolio-2021/static/css/main.aabd2f81.chunk.css",
+    "main.js": "/portafolio-2021/static/js/main.675a5d45.chunk.js",
+    "main.js.map": "/portafolio-2021/static/js/main.675a5d45.chunk.js.map",
+    "runtime-main.js": "/portafolio-2021/static/js/runtime-main.ce70a026.js",
+    "runtime-main.js.map": "/portafolio-2021/static/js/runtime-main.ce70a026.js.map",
+    "static/js/2.f3c0617d.chunk.js": "/portafolio-2021/static/js/2.f3c0617d.chunk.js",
+    "static/js/2.f3c0617d.chunk.js.map": "/portafolio-2021/static/js/2.f3c0617d.chunk.js.map",
+    "index.html": "/portafolio-2021/index.html",
+    "static/css/main.aabd2f81.chunk.css.map": "/portafolio-2021/static/css/main.aabd2f81.chunk.css.map",
+    "static/js/2.f3c0617d.chunk.js.LICENSE.txt": "/portafolio-2021/static/js/2.f3c0617d.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/portafolio-2021/static/media/avatar.0087e962.jpg",
+    "static/media/dom.c30168e4.jpg": "/portafolio-2021/static/media/dom.c30168e4.jpg",
+    "static/media/frontendDev.490c23c4.jpg": "/portafolio-2021/static/media/frontendDev.490c23c4.jpg",
+    "static/media/fundamentosJs.9830a5f7.jpg": "/portafolio-2021/static/media/fundamentosJs.9830a5f7.jpg",
+    "static/media/grid.cc2f9a0e.jpg": "/portafolio-2021/static/media/grid.cc2f9a0e.jpg",
+    "static/media/htmlyCSS.23f45c51.jpg": "/portafolio-2021/static/media/htmlyCSS.23f45c51.jpg",
+    "static/media/iglogo.e719d8b2.png": "/portafolio-2021/static/media/iglogo.e719d8b2.png",
+    "static/media/jsprofesional.70e34218.jpg": "/portafolio-2021/static/media/jsprofesional.70e34218.jpg",
+    "static/media/linkedin.e65fd24a.png": "/portafolio-2021/static/media/linkedin.e65fd24a.png",
+    "static/media/reactF.5c7af2c7.jpg": "/portafolio-2021/static/media/reactF.5c7af2c7.jpg",
+    "static/media/reactP.f46f0d31.jpg": "/portafolio-2021/static/media/reactP.f46f0d31.jpg",
+    "static/media/reactRedux.6a3459c2.jpg": "/portafolio-2021/static/media/reactRedux.6a3459c2.jpg",
+    "static/media/twit.f196736d.png": "/portafolio-2021/static/media/twit.f196736d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce70a026.js",
+    "static/js/2.f3c0617d.chunk.js",
+    "static/css/main.aabd2f81.chunk.css",
+    "static/js/main.675a5d45.chunk.js"
+  ]
+}
