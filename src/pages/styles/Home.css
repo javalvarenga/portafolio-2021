@@ -163,7 +163,7 @@ main .avatar {
 
 
 #cvBtn {
-  position: fixed;
+  position: absolute;
   right: 100px;
   top: 50px;
   color: white;
@@ -194,7 +194,11 @@ main .avatar {
     background: #fed766;
   }
 }
-
+@media (min-width:1000px) {
+  #cvBtn {
+    position: fixed;
+  }
+}
 @media (max-width: 600px) {
   #cvBtn {
     position: absolute;
