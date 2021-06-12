@@ -2,7 +2,7 @@
   "name": "portafolio-2021",
   "version": "0.1.0",
   "private": true, 
-  "homepage":"https//javalvarenga.github.io/portafolio-2021",
+  "homepage":"http://javalvarenga.github.io/portafolio-2021",
   "dependencies": {
     "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/react": "^11.2.7",
