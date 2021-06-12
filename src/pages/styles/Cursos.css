@@ -10,8 +10,9 @@
 }
 .Cursos h1{
   font-size: 3rem;
+
   margin: 0;
-  padding-top: 3rem;
+
   color: #fed766;
 }
 .Cursos h6{
@@ -29,6 +30,23 @@
       background-position: 0% 50%;
     }
   }
+.headerCursos{
+  display: flex;
+  justify-content: space-eve;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+}
+.headerCursos h1{
+  margin-bottom: 1rem;
+}
+.headerCursos a{
+  /* color: white; */
+  text-decoration: none;
+  outline: none;
+}
+
+
 
 .courseContainer{
   display: grid;

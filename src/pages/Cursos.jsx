@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import {Link} from 'react-router-dom'
 import "./styles/Cursos.css";
 import GenericCard from "../components/GenericCard";
 import FrontendSC from "../assets/diplomas/frontendDev.jpg";
@@ -84,7 +84,10 @@ function Cursos() {
   return (
     <div className="Cursos">
       <section>
-        <h1>Cursos de Desarrollo Web</h1>
+        <div className="headerCursos">
+          <h1>Cursos de Desarrollo Web</h1>
+          <span><Link to="/portafolio-2021" id="linkHome">Home</Link >{" > "}<Link to="#" id="linkCursos">Cursos</Link></span>
+        </div>
         <div className="courseContainer">
           {courses.map((course) => {
             return (
@@ -107,7 +110,6 @@ function Cursos() {
               más
             </a>
           </h6>
-
         </div>
       </section>
     </div>

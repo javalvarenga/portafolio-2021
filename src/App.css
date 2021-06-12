@@ -4,4 +4,11 @@
   margin: 0;
 }
 
-
+#linkCursos{
+  text-decoration: none;
+  color: #fed766;
+}
+#linkHome{
+  text-decoration: none;
+  color: white;
+}
