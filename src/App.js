@@ -11,9 +11,9 @@ function App() {
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/portafolio-2021" component={Home} />
-      <Route exact path="/cursos" component={Cursos} />
-      <Route exact path="/projects" component={Projects} />
-      <Route exact path="/about" component={About} />
+      <Route exact path="/portafolio-2021/cursos" component={Cursos} />
+      <Route exact path="/portafolio-2021/projects" component={Projects} />
+      <Route exact path="/portafolio-2021/about" component={About} />
     </Switch>
     </BrowserRouter>
   );

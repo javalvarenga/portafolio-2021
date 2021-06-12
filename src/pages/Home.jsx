@@ -1,12 +1,10 @@
 import React from "react";
-import { Link,withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./styles/Home.css";
 import twitterImg from "../assets/images/twit.png";
 import igLogo from "../assets/images/iglogo.png";
 import inLogo from "../assets/images/linkedin.png";
-function Home(props) {
-
-  const {history}=props
+function Home() {
 
   return (
     <div className="Home">
@@ -57,8 +55,9 @@ function Home(props) {
                 <h6 className="subtitle">
                   Mi proceso de aprendizaje en <b>Platzi</b>
                 </h6>
-                {/* <Link to="/cursos"> */}
-                  <button onClick={()=>history.push('/cursos')} id="btnCursos">mis Cursos</button>
+                <Link to="/cursos">
+                  <button id="btnCursos">mis Cursos</button>
+                </Link>
               </div>
             </div>
             <div className="redes">
@@ -81,8 +80,9 @@ function Home(props) {
           </div>
         </div>
       </main>
+
     </div>
   );
 }
 
-export default withRouter(Home);
+export default Home;
