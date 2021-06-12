@@ -5,7 +5,6 @@ import twitterImg from "../assets/images/twit.png";
 import igLogo from "../assets/images/iglogo.png";
 import inLogo from "../assets/images/linkedin.png";
 function Home() {
-
   return (
     <div className="Home">
       <main>
@@ -62,25 +61,46 @@ function Home() {
             </div>
             <div className="redes">
               <h6>Contáctame</h6>
-              <div>
-                <div id="instagram">
-                  <img src={igLogo} alt="" />
-                  <p>Instagram</p>
+              <div className="contact">
+                <div className="social">
+                  <a
+                    href="https://www.instagram.com/abrajam_0101/?hl=es-la"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={igLogo} alt="" />
+                    <p>Instagram</p>
+                  </a>
                 </div>
-                <div id="twitter">
-                  <img src={twitterImg} alt="" />
-                  <p>Twitter</p>
+                <div className="social">
+                  <a
+                    href="https://twitter.com/aalvarengaj"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div>
+                      <img src={twitterImg} alt="" />
+                      <p>Twitter</p>
+                    </div>
+                  </a>
                 </div>
-                <div id="linkedin">
-                  <img src={inLogo} alt="" />
-                  <p>Linkedin</p>
+                <div className="social">
+                  <a
+                    href="https://www.linkedin.com/in/abraham-alvarenga-972093179/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div>
+                      <img src={inLogo} alt="" />
+                      <p>Linkedin</p>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </main>
-
     </div>
   );
 }

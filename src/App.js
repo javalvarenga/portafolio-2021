@@ -1,6 +1,6 @@
 
 import './App.css';
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import ScrollToTop from './ScrollToTop'
 import Home from './pages/Home';
 import Cursos from './pages/Cursos';
@@ -15,7 +15,6 @@ function App() {
       <Route exact path="/cursos" component={Cursos} />
       <Route exact path="/projects" component={Projects} />
       <Route exact path="/about" component={About} />
-
     </HashRouter>
   );
 }

@@ -64,13 +64,13 @@
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 601px) {
   .courseContainer{
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
   .courseContainer{
     grid-template-columns: 1fr 1fr 1fr;
 
@@ -91,3 +91,4 @@
 .coursesFooter a:hover{
   color: #678dfe;
 }
+

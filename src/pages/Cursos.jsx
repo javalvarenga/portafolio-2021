@@ -79,7 +79,7 @@ function Cursos() {
     },
   ];
 
-  const [courses, setstate] = useState(initialCourses);
+  const [courses] = useState(initialCourses);
 
   return (
     <div className="Cursos">
@@ -106,7 +106,7 @@ function Cursos() {
           </p>
           <h6>
             Aún hay{" "}
-            <a target="_blank" href="https://platzi.com/p/javalvarenga/">
+            <a target="_blank" href="https://platzi.com/p/javalvarenga/" rel="noreferrer">
               más
             </a>
           </h6>
