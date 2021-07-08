@@ -5,7 +5,7 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin')
 
 module.exports = {
-    mode: 'development',
+
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'build'),
