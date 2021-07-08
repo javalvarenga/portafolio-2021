@@ -13,7 +13,6 @@ function App() {
     <HashRouter>
       <ScrollToTop />
       <Route exact path="/" component={Home} />
-      <Route exact path="/portafolio-2021" component={Home} />
       <Route exact path="/cursos" component={Cursos} />
       <Route exact path="/projects" component={Projects} />
       <Route exact path="/about" component={About} />

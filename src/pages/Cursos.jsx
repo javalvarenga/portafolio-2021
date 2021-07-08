@@ -86,7 +86,7 @@ function Cursos() {
       <section>
         <div className="headerCursos">
           <h1>Cursos de Desarrollo Web</h1>
-          <span><Link to="/portafolio-2021" id="linkHome">Home</Link >{" > "}<Link to="#" id="linkCursos">Cursos</Link></span>
+          <span><Link to="/" id="linkHome">Home</Link >{" > "}<Link to="#" id="linkCursos">Cursos</Link></span>
         </div>
         <div className="courseContainer">
           {courses.map((course) => {
