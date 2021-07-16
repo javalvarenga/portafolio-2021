@@ -65,7 +65,7 @@ function Home() {
               </div>
             </div>
             <div className="redes">
-              <h6>Contáctame</h6>
+              <h4>Contáctame</h4>
               <div className="contact">
                 <div className="social">
                   <a

@@ -8,6 +8,7 @@ body {
   box-sizing: border-box;
 }
 :root {
+  --subtitles:#fed766;
   --main-bg-color: brown;
   --txtColor: rgb(180, 180, 180);
   --initBackground:linear-gradient(to right bottom, #201b23, #221f28, #24242d, #262832, #282d36, #282c35, #272c33, #272b32, #23252b, #1f1f24, #1a1a1d, #151416);
