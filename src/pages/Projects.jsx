@@ -20,6 +20,7 @@ function Projects() {
             <Carousel />
           </div>
         </div>
+        <p>Seccion en desarrollo</p>
       </section>
     </div>
   );
