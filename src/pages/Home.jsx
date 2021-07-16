@@ -4,12 +4,17 @@ import "./styles/Home.css";
 import twitterImg from "../assets/images/twit.png";
 import igLogo from "../assets/images/iglogo.png";
 import inLogo from "../assets/images/linkedin.png";
+// import cv from "../assets/AlvarengaCV.pdf"
+
+
 function Home() {
   return (
     <div className="Home">
       <main>
         <div className="container">
+          <a download="AlvarengaCV.pdf" href={require("../assets/AlvarengaCV.pdf")}>
           <button id="cvBtn">DESCARGAR CV</button>
+          </a>
           <div className="hero">
             <div className="avatar"></div>
             <h1>Abraham Alvarenga</h1>
