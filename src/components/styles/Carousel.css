@@ -1,6 +1,7 @@
 .Carousel {
   width: 100%;
   height: 100%;
+  max-width: 1000px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -17,14 +18,6 @@
   border-radius: 1rem;
 }
 
-@media (min-width: 1000px) {
-    .Carousel {
-      width: 80%;
-    }
-
-  }
-
-/* .control-prev,.control-next{
-    margin-left: 1rem;
-    margin-right: 1rem;
-} */
+.sr-only{
+  visibility: hidden;
+}

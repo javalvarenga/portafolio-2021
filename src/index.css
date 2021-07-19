@@ -28,3 +28,7 @@ body {
     #435587
   );
 }
+a{
+  text-decoration: none;
+  outline: none;
+}

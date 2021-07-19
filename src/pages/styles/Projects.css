@@ -1,49 +1,133 @@
 .Projects {
-    box-sizing: border-box;
-    background: var(--initBackground);
-    min-height: 100vh;
-    color: white;
-    margin: 0;
-    animation: luminusBackground 10s ease-in-out infinite;
-    background-size: 400% 300%;
-    padding-top: 3rem;
+  box-sizing: border-box;
+  background: var(--initBackground);
+  color: white;
+  min-height: 100vh;
+  margin: 0;
+  animation: luminusBackground 10s ease-in-out infinite;
+  background-size: 400% 300%;
+  padding-top: 3rem;
+}
+@keyframes luminusBackground {
+  0% {
+    background-position: 0% 50%;
   }
-  @keyframes luminusBackground {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 75%;
-    }
-  
-    100% {
-      background-position: 0% 50%;
-    }
+  50% {
+    background-position: 100% 75%;
   }
 
-.Projects h2{
-    margin: 0;
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-.Projects i{
-    font-weight: 200;
+.Projects h2 {
+  margin: 0;
+  color: #7d80da;
+
 }
-.project-carousel{
-    width: 100%;
-    padding: 1.6rem;
-    height: 40vh;
+
+.Projects i {
+  font-weight: 100;
+}
+.project-carousel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 3rem;
+}
+.project_description {
+  padding-left: 1.6rem;
+  animation: fade 1s ease-in-out forwards;
+}
+
+
+.carousel img{
+  border-radius: 8px;
+}
+
+.icons{display: flex;
+padding-top: 1.6rem;
+justify-content: center;}
+.icons p{
+  color: white;
+  outline: none;
+  text-decoration: none;
+}
+.icons img{
+  height: 30px;
+  margin: 0 3rem;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1.6rem;
+}
+.project-carousel aside{
+
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+@media (min-width:800px) {
+  .carousel{
     display: flex;
-    align-items: flex-start;
-}
-.project_description{
-    padding-left: 1rem;
-}
-
-@media (min-width: 1000px) {
-    .project-carousel {
-      height: 60vh;
-      padding: 0;
-      padding-left: 1.6rem;
-    }
-
+    justify-content: center;
+    width: 80%;
   }
+  .icons{
+    animation: fade 1s forwards;
+  }
+  .icon img{
+    animation: scale 1s ease forwards;
+    margin-bottom: 1rem;
+  }
+}
+
+
+@media (max-width:800px) {
+  .carousel{
+    animation: agrandar 1s forwards;
+  }
+}
+
+
+@keyframes scale {
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(1.5);
+  }
+}
+
+@keyframes fade {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+@keyframes agrandar {
+  0%{
+    width: 80%;
+  }
+  100%{
+    width: 100%;
+  }
+}
+
