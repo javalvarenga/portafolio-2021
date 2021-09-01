@@ -6,14 +6,16 @@ import igLogo from "../assets/images/iglogo.png";
 import inLogo from "../assets/images/linkedin.png";
 // import cv from "../assets/AlvarengaCV.pdf"
 
-
 function Home() {
   return (
     <div className="Home">
       <main>
         <div className="container">
-          <a download="AlvarengaCV.pdf" href={require("../assets/AlvarengaCV.pdf")}>
-          <button id="cvBtn">DESCARGAR CV</button>
+          <a
+            download="AlvarengaCV.pdf"
+            href={require("../assets/AlvarengaCV.pdf")}
+          >
+            <button id="cvBtn">DESCARGAR CV</button>
           </a>
           <div className="hero">
             <div className="avatar"></div>
@@ -23,7 +25,7 @@ function Home() {
             <p>
               <i>Desarrollador Web/Frontend Development</i>
             </p>
-            <p>autodidacta, apasionado por la tecnología.</p>
+            <p>autodidacta y apasionado por la tecnología.</p>
 
             <div className="estudio">
               <div className="subContainer">
@@ -39,7 +41,7 @@ function Home() {
                 </ul>
               </div>
               <div className="subContainer">
-                <h6 className="subtitle">ve mis proyectos</h6>
+                <h6 className="subtitle">mis proyectos</h6>
                 <Link to="/projects">
                   <button id="btnPortafolio">Portafolio</button>
                 </Link>
